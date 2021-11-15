@@ -1,7 +1,7 @@
 {
-  "name": "mern-shopping",
+  "name": "responsive-ecommerce-store",
   "version": "1.0.0",
-  "description": "",
+  "description": "built using ReactJS and Redux framework",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -11,13 +11,13 @@
     "build": "cd client && npm run build"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Michael Adam Groberman",
+  "license": "MIT",
   "devDependencies": {
     "concurrently": "^5.1.0"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.2",
     "redux": "^4.1.2"
-  }
+  },
 }
