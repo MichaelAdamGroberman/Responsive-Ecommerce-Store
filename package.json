@@ -6,7 +6,7 @@
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "cd server && npm start",
-    "install": "cd server && npm i && cd ../client && npm i" && npm run build,
+    "install": "cd server && npm i && cd ../client && npm i && npm run build",
     "seed": "cd server && npm run seed",
   },
   "author": "Michael Adam Groberman",
