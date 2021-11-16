@@ -20,7 +20,7 @@
     "concurrently": "^5.1.0"
   },
   "engines": {
-    "npm": "7.x",
-    "Node": "14.x"
+    "node": "14.x",
+    "npm": "7.x"
   }
 }
