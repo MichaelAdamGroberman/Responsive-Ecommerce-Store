@@ -23,6 +23,10 @@
     "redux": "^4.1.0",
     "stripe": "^8.146.0"
   },
+  "engines": {
+    "npm": "7.x",
+    "node": "16.x"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
