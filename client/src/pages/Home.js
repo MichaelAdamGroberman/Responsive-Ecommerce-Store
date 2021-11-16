@@ -1,8 +1,7 @@
-import React from "react";
-import ProductList from "../components/ProductList";
-import CategoryMenu from "../components/CategoryMenu";
-import Cart from "../components/Cart";
-
+import React, { useState } from "react";
+import ProductList from "../components/product-List";
+import CategoryMenu from "../components/category-Menu";
+import Cart from '../components/cart';
 const Home = () => {
   return (
     <div className="container">
