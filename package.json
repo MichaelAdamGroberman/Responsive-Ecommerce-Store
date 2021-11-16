@@ -1,13 +1,15 @@
 {
-  "name": "Responsive-Ecommerse-Store",
+  "name": "Responsive-Ecomm-Store",
   "version": "1.0.0",
-  "description": "built using React and Redux",
+  "description": "",
   "main": "server/server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "cd server && npm start",
-    "install": "cd server && npm i && cd ../client && npm i && npm run build",
-    "seed": "cd server && npm run seed"
+    "start:dev": "concurrently \"cd server && npm run seed && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed",
+    "heroku-postbuild": "cd client && npm run build"
   },
   "author": "Michael Adam Groberman",
   "license": "MIT",

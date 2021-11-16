@@ -9,9 +9,6 @@ import { loadStripe } from "@stripe/stripe-js";
 import { useLazyQuery } from '@apollo/react-hooks';
 import { QUERY_CHECKOUT } from "../../utils/queries"
 
-// Stripe Payment API key 
-// the key below is the publically available API key for testing. it will not allow you to process real CC information.
-// see here for more information (https://stripe.com/docs/development/quickstart)
 const stripePromise = loadStripe('pk_test_TYooMQauvdEDq54NiTphI7jx');
 
 const Cart = () => {
