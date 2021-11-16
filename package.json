@@ -1,5 +1,5 @@
 {
-  "name": "Responsive-Ecomm-Store",
+  "name": "responsive-ecommerce",
   "version": "1.0.0",
   "description": "",
   "main": "server/server.js",
@@ -11,17 +11,16 @@
     "seed": "cd server && npm run seed",
     "heroku-postbuild": "cd client && npm run build"
   },
-  "author": "Michael Adam Groberman",
+  "author": "Michael Groberman",
   "license": "MIT",
   "dependencies": {
-    "if-env": "^1.0.4",
-    "react-scripts": "^4.0.3"
+    "if-env": "^1.0.4"
   },
   "devDependencies": {
     "concurrently": "^5.1.0"
   },
   "engines": {
-    "npm": "8.x",
-    "node": "16.x"
+    "npm": "7.x",
+    "Node": "14.x"
   }
 }

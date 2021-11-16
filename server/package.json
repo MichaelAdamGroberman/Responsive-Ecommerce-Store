@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
     "@reduxjs/toolkit": "^1.5.1",
     "apollo-server-express": "^2.11.0",
@@ -25,9 +25,5 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
-  },
-  "engines": {
-    "npm": "8.x",
-    "node": "16.x"
   }
 }
