@@ -8,7 +8,7 @@ import Detail from './pages/Detail';
 import NoMatch from './pages/NoMatch';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
-import Nav from './components/nav/index.js';
+import Nav from './components/nav';
 import Success from './pages/Sucess';
 import { Provider } from 'react-redux';
 import store from './redux/store';
