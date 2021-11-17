@@ -2,14 +2,13 @@
 e-commerce site built using ReactJS and Redux framework
 
 ![License Badge](https://img.shields.io/github/license/michaeladamgroberman/responsive-ecommerce-store)
-
+?[Live Application Heployed on Heroku](https://obscure-harbor-86145.herokuapp.com/)
 This is a basic ecommerce story built using React JS Redux, and a MongoDB backend hosted on [Mongo Atlas](https://cloud.mongodb.com)  
 
 ## Contents
 
-1. [Installation](#installation)
-2. [Usage](#usage)
-4. [Screenshots](#screenshots)
+-[Installation](#installation)
+-[Screenshots](#screenshots)
 
 
 ## Instalation
