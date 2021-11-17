@@ -13,4 +13,15 @@ This is a basic ecommerce story built using React JS Redux, and a MongoDB backen
 
 
 ## Instalation
-1. You must first modify the '/server/config/connection.js' file and replace 'mongodb_server' with the connection string provided by MongoDB Atlas.
+1. You must first modify the '/server/config/connection.js' file and replace 'mongodb_server' with the connection string appropriate for access to your MongoDB Atlas DataBase
+2. in. your cli, run `npm install`. this will install the required dpenendancies/packages/node_modules.
+3. now run `npm start` in your terminal. 
+
+This will build the application for you and will open it using your default browser
+
+![shoppingAndCart](https://github.com/MichaelAdamGroberman/Responsive-Ecommerce-Store/blob/main/assets/cart.png)
+![signup](https://github.com/MichaelAdamGroberman/Responsive-Ecommerce-Store/blob/main/assets/signup.png)
+![login](https://github.com/MichaelAdamGroberman/Responsive-Ecommerce-Store/blob/main/assets/login.png)
+
+and ...........
+![Checkout](https://github.com/MichaelAdamGroberman/Responsive-Ecommerce-Store/blob/main/assets/checkout.png)
